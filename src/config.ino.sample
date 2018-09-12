@@ -1,0 +1,26 @@
+
+#define WIFI_SSN "Wifi Network"
+#define WIFI_PW "123"
+
+#define MQTT_SERVER "mosquitto"
+#define MQTT_PORT 8883
+#define MQTT_USER "user"
+#define MQTT_PASSWORD "pass"
+#define MQTT_SERVER_FINGERPRINT {0x49, 0xcd, 0xba, 0xc5, 0xb7, 0x4f, 0xa1, 0x2c, 0x8b, 0xfd, 0x7c, 0xd9, 0xe9, 0xdb, 0x77, 0x85, 0xf0, 0xd9, 0x8f, 0xee}
+#define MQTT_CLIENT_ID "garage8266"
+
+#define MQTT_TOPIC_STATUS "status/garage"
+#define MQTT_TOPIC_STATUS_DOOR "status/garage/door"
+#define MQTT_TOPIC_STATUS_TEMPERATURE "status/garage/temperature"
+#define MQTT_TOPIC_STATUS_HUMIDITY "status/garage/humidity"
+#define MQTT_TOPIC_CONTROL_DOOR "control/garage/door"
+
+#define PIN_DOOR_STATUS D1
+#define PIN_DOOR_CONTROL D2
+#define PIN_DHT D4 
+
+#define DHTTYPE DHT22
+
+#define DOOR_TRAVEL_TIME 150 // * 100ms
+#define RELAY_TIME 10 // * 100ms
+#define TEMP_INTERVAL 100 // * 100ms

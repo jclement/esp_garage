@@ -1,0 +1,7 @@
+Using LoLin NodeMCU
+
+Pins:
+D1 (GPIO 5) - Door Status (pull up, low = door open)
+D2 (GPIO 4) - Door Control (high to flip relay)
+GND - Relay Ground
+VV - Relay (+)
